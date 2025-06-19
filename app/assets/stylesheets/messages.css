@@ -15,11 +15,48 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.user_link{
+  background-color:#253141;
+  color:#FAFAFA;
+  font-size:16px;
+}
+
+.user_link a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+.chat_link{
+  padding:14px;
+  border:1px solid skyblue;
+}
+
+.chat_link a{
+  color:deepskyblue;
+  font-size:10px;
+  text-decoration:none;
+}
+
 .side-body{
   background-color:#2F3E51;
   height:calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.chatroom{
+  padding:20px 0 40px;
+}
+
+.chatroom a{
+  color: white;
+  text-decoration: none;
 }
 
 .chat-header{
