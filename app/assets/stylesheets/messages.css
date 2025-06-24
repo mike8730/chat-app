@@ -50,13 +50,13 @@
   overflow: scroll;
 }
 
-.chatroom{
-  padding:20px 0 40px;
+.room-name {
+  padding: 20px 0 40px;
 }
 
-.chatroom a{
-  color: white;
+.room-name a {
   text-decoration: none;
+  color: white;
 }
 
 .chat-header{
