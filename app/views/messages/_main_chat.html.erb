@@ -8,19 +8,7 @@
 </div>
 
 <div class=chat-body>
-  <div class=message>
-   <div class=user_times>
-     <div class=user_name>Tom</div>
-     <div class=times>2020/3/31(WED) 12:43:30</div>
-   </div>
-   <div class=message_text>おはよう</div>
-  </div>
-  <div class=message>
-    <div class=user_times>
-     <div class=user_name>Sim</div>
-     <div class=times>2020/3/31(WED) 12:43:30</div>
-    </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 <div class=chat-footer>
