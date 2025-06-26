@@ -1,6 +1,6 @@
 <div class=chat-header>
    <div class=chat-summary>
-     hogefuga
+     <%= @room.name %>
    </div>
    <div class=chat-end>
      <%= link_to "チャットを終了する", room_path(@room), data: { turbo_method: :delete } %>
